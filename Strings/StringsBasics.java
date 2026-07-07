@@ -1,28 +1,138 @@
 package Strings;
 public class StringsBasics {
-    public static void main(String[] args) {
-        String firstName = "Pradhan";
-        String lastName = new String("Gurjar");
-        System.out.println(firstName + " " + lastName);
-        System.out.println(firstName.length());
-        System.out.println(lastName.length());
-        System.out.println(firstName.charAt(0));
-        System.out.println(lastName.charAt(0));
+        static void printString(String str){
+            int n = str.length();
 
-       for(int i=0; i<= firstName.length()-1; i++) {
-        System.out.print("This are the elements of string firstName : ");
-        System.out.print(firstName.charAt(i));
+            for(int i=0; i<=n-1; i++) {
+                char ch = str.charAt(i);
+                System.out.println(ch);
+            }
+        }
+        static int getLengthOfString(String str) {
+            char[] arr = str.toCharArray();
+            int len = arr.length;
+            return len;
+        }
+    public static void main(String[] args) {
+
+        printString("pradhan");
         System.out.println();
-       }
+        System.out.println(getLengthOfString("set"));
+
+
+
+        
+
+
+
+
+
+
+       
+    //     String firstName = "Pradhan";
+    //     String lastName = new String("Gurjar");
+    //     System.out.println(firstName + " " + lastName);
+    //     System.out.println(firstName.length());
+    //     System.out.println(lastName.length());
+    //     System.out.println(firstName.charAt(0));
+    //     System.out.println(lastName.charAt(0));
+
+    //    for(int i=0; i<= firstName.length()-1; i++) {
+    //     System.out.print("This are the elements of string firstName : ");
+    //     System.out.print(firstName.charAt(i));
+    //     System.out.println();
+    //    }
        
 
-       for(int i=0; i<= lastName.length()-1; i++) {
-        System.out.print("This are the elements of string LastName : ");
-        System.out.print(lastName.charAt(i));
-        System.out.println();
-        System.out.println("end");
-       }
+    //    for(int i=0; i<= lastName.length()-1; i++) {
+    //     System.out.print("This are the elements of string LastName : ");
+    //     System.out.print(lastName.charAt(i));
+    //     System.out.println();
+    //    }
 
+
+    //    String Name = "Pradhan";
+    //    String Name1 = "PRADHAN";
+
+    //    if(Name == Name1) {
+    //     System.out.println("Yes");
+    //    }else {
+    //     System.out.println("No");
+    //    }
+    //    System.out.println(Name.equals(Name1));
+       
+    //    if(Name.equals(Name1)) {
+    //     System.out.println("Yes");
+    //    }else {
+    //     System.out.println("No");
+    //    }
+
+    //    if(Name.equalsIgnoreCase(Name1)) {
+    //     System.out.println("Yes");
+    //    }else {
+    //     System.out.println("No");
+    //    }
+
+    // Scanner input = new Scanner(System.in);
+    // System.out.print("Kuch input de de re baba : ");
+    // String kuch_de_de_re_baba = input.nextLine();
+    // System.out.println(kuch_de_de_re_baba);
+
+
+    //String dot oprations or oprator 
+    // String name = "Pradhan";
+    // String name2 = "PRADHAN";
+    // System.out.println(name.length());
+    // System.out.println(name.charAt(0));
+    // System.out.println(name.toUpperCase());
+    // System.out.println(name.toLowerCase());
+    // System.out.println(name.chars());
+    // System.out.println(name.compareTo(name2));
+    // System.out.println(name.equals(name2));
+    // System.out.println(name.equalsIgnoreCase(name2));
+    // System.out.println(name.contentEquals(name2));
+
+    // String name = "               pradhan  GURAJR        ";
+    // String name2 = "PRADHAN";
+    // // System.out.println(name.isBlank());
+    // // System.out.println(name.isEmpty());
+    // // System.out.println(name.trim());
+    // // System.out.println(name.length());
+    // String big = "My name is bhagwan Shahay " ;
+    // System.out.println(big.substring(3,6));
+
+    // System.out.println(big.contains("bhagwan"));
+    
+    
+    // int num = 5123;
+    // String str = String.valueOf(num);
+    // System.out.println(num);
+    // System.out.println(str);
+
+    // String suff = "Pradhan Gurjar is also knows as Bhagwan Shahay in the Proffesional world";
+    // System.out.println(suff.startsWith("Pradhan "));
+    // System.out.println(suff.endsWith("world"));
+
+        // String arr = "array";
+        // char[] ch = arr.toCharArray();
+        // System.out.println(ch);
+
+        // for(char and: ch) {
+        //     System.out.println("Value of char : " + and); 
+        // }
+
+        // String name = "my , name , is , pradhan , gurjar ";
+        // System.out.println(name.split(","));
+        // String[] words = name.split(",");
+        // System.out.println(words);
+
+        // for(String str: words) {
+        //     System.out.println(str);
+        // }
+
+    //     String name = "pradhan";
+    //   name =   name.replace('p','b');
+    //     System.out.println(name);
 
     }
 }
