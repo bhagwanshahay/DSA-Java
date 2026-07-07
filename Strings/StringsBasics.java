@@ -20,6 +20,7 @@ public class StringsBasics {
         System.out.print("This are the elements of string LastName : ");
         System.out.print(lastName.charAt(i));
         System.out.println();
+        System.out.println("end");
        }
 
 
