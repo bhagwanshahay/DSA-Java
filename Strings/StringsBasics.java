@@ -19,15 +19,6 @@ public class StringsBasics {
         System.out.println();
         System.out.println(getLengthOfString("set"));
 
-
-
-        
-
-
-
-
-
-
        
     //     String firstName = "Pradhan";
     //     String lastName = new String("Gurjar");
