@@ -18,6 +18,10 @@ public class StringsBasics {
         printString("pradhan");
         System.out.println();
         System.out.println(getLengthOfString("set"));
+        
+        String Pradhan = new String("Pradhan");
+        System.out.println(Pradhan.toUpperCase());
+        
 
        
     //     String firstName = "Pradhan";
@@ -124,6 +128,6 @@ public class StringsBasics {
     //     String name = "pradhan";
     //   name =   name.replace('p','b');
     //     System.out.println(name);
-
+        
     }
 }
