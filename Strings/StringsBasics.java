@@ -13,14 +13,88 @@ public class StringsBasics {
             int len = arr.length;
             return len;
         }
-    public static void main(String[] args) {
 
-        printString("pradhan");
-        System.out.println();
-        System.out.println(getLengthOfString("set"));
+        static int getVowelsCount(String str) {
+            int count = 0;
+            for(int i=0; i<=str.length()-1;  i++) {
+                char ch = str.charAt(i);
+                if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
+                    count ++;
+                }
+            }
+            return count;
+        }
+
+        static String reverseString(String str) {
+            String reverse = "";
+            int n = str.length();
+            for(int i=n-1; i>=0; i--){
+                char ch = str.charAt(i);
+                reverse = reverse + ch;
+            } 
+            return reverse;
+
+        }
         
-        String Pradhan = new String("Pradhan");
-        System.out.println(Pradhan.toUpperCase());
+        static void reversepal(String str) {
+            String reverse ="";
+            int n = str.length()-1;
+            String orignal = str;
+
+            for(int i=n; i>=0; i--){
+                char ch = str.charAt(i);
+                reverse += ch;
+            }
+
+            if(orignal == reverse) {
+                System.out.println("Yes");
+            }else{
+                System.out.println("No");
+            }
+
+        }
+        static boolean check(String str) {
+            String original = str;
+            String reverse = reverseString(original);
+
+            for(int i=0; i<=original.length()-1; i++){
+                char ch = original.charAt(i);
+                char ch1 = original.charAt(i);
+
+                if(ch1 != ch) {
+                    return false;
+                }
+            }
+            return true;
+        }
+    public static void main(String[] args) {
+        
+        System.out.println(check("poop"));
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        // System.out.print("In this String vowels are : ");
+        // System.out.println(getVowelsCount( "Pradhan"));
+
+        // System.out.println(reverseString("12345"));
+
+        // printString("pradhan");
+        // System.out.println();
+        // System.out.println(getLengthOfString("set"));
+        
+        // String Pradhan = new String("Pradhan");
+        // System.out.println(Pradhan.toUpperCase());
         
 
        
