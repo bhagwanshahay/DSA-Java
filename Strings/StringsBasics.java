@@ -70,6 +70,7 @@ public class StringsBasics {
     public static void main(String[] args) {
         
         System.out.println(check("poop"));
+        System.out.println("this is the end ");
 
 
         
