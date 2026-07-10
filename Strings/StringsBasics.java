@@ -67,10 +67,25 @@ public class StringsBasics {
             }
             return true;
         }
+    static int[] buildArray(int[] nums) {
+        int ans[] = new int[nums.length];
+        int temp = 0;
+        for(int i=0; i<= nums.length-1; i++){
+            temp = temp + nums[i];
+            ans[i] = nums[temp];
+            temp = 0;
+
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
         
-        System.out.println(check("poop"));
-        System.out.println("this is the end ");
+        // System.out.println(check("poop"));
+        // System.out.println("this is the end ");
+
+        int nums[] = {0,2,1,5,3,4};
+        System.out.println(buildArray(nums));
 
 
         
