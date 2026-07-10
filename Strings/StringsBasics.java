@@ -69,11 +69,10 @@ public class StringsBasics {
         }
     static int[] buildArray(int[] nums) {
         int ans[] = new int[nums.length];
-        int temp = 0;
         for(int i=0; i<= nums.length-1; i++){
-            temp = temp + nums[i];
-            ans[i] = nums[temp];
-            temp = 0;
+            
+            ans[i] = nums[nums[i]];
+            
 
         }
         return ans;
@@ -85,7 +84,8 @@ public class StringsBasics {
         // System.out.println("this is the end ");
 
         int nums[] = {0,2,1,5,3,4};
-        System.out.println(buildArray(nums));
+            System.out.println(buildArray(nums));
+        
 
 
         
