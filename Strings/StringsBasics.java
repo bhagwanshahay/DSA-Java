@@ -78,13 +78,27 @@ public class StringsBasics {
         return ans;
     }
 
+    static int[] getConcatenation(int[] nums) {
+        int ans[] = new int[nums.length * 2];
+        int n = nums.length;
+        for(int i=0; i<nums.length; i++) {
+            ans[i] = nums[i];
+            ans[n] = nums[i];
+            n++;
+
+        }
+        return ans;
+    }
+
     public static void main(String[] args) {
         
         // System.out.println(check("poop"));
         // System.out.println("this is the end ");
 
-        int nums[] = {0,2,1,5,3,4};
-            System.out.println(buildArray(nums));
+        // int nums[] = {1,2,1};
+        //     System.out.println(buildArray(nums));
+        //     System.out.println(getConcatenation(nums));
+
         
 
 
