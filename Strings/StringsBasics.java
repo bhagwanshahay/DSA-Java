@@ -91,6 +91,9 @@ public class StringsBasics {
     }
 
     public static void main(String[] args) {
+
+            System.err.println("this is the real array => even true even true odd false ");
+
         
         // System.out.println(check("poop"));
         // System.out.println("this is the end ");
