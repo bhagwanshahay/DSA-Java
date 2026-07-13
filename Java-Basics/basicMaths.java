@@ -12,7 +12,7 @@ public class basicMaths {
         
         while( number != 0) {
             int lastDigit = number % 10 ;
-            count += 1 ;
+            count += 1 ;   
             number = number /10 ;
         }
         System.out.println("This is the count of digits : " + count);
