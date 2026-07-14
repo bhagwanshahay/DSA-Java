@@ -29,11 +29,28 @@ public class basicMaths {
         }
         System.out.println("this is the Sum of digits : "+ sum);
     }
+
+    static int reverseNum(int number) {
+        int reverse = 0; 
+        int ans = 0;
+
+        while (number != 0 ) {
+            reverse = number % 10;
+           ans = ans * 10 + reverse;
+            number /= 10 ;
+            
+        }
+       
+        return ans;
+    }
     public static void main(String[] args) {
         int number = 53127;
-        printDigits(number);
-        countDigit(number);
-        sumDigit(number);
+        // printDigits(number);
+        // countDigit(number);
+        // sumDigit(number);
+        System.out.println(reverseNum(number));
+        
+        
 
 
     }
