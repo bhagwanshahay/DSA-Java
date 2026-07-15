@@ -1,4 +1,4 @@
-package Strings;
+package Strings.Strings;
 public class StringsBasics {
         static void printString(String str){
             int n = str.length();
