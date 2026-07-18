@@ -43,12 +43,33 @@ public class basicMaths {
        
         return ans;
     }
+    static int GCD(int a, int b ) {
+           
+
+            while ( b != 0) {
+                int oldValueOfB = b;
+                b = a % b;
+                a = oldValueOfB;
+            }
+            int ans = a;
+            return ans;
+    }
+    static int LCM(int a,int b) {
+        int gcd = GCD(a, b);
+        int prod = a*b;
+        int lcm = prod/gcd ;
+        return lcm;
+    }
     public static void main(String[] args) {
-        int number = 53127;
+        int number = 321;
         // printDigits(number);
         // countDigit(number);
         // sumDigit(number);
         System.out.println(reverseNum(number));
+        int a = 18;
+        int b = 12;
+        System.out.println(GCD(a, b));
+        System.out.println(LCM(a, b));
         
         
 
