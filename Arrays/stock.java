@@ -4,12 +4,10 @@ public class Stock {
         int maxProfit = 0;
 
         for (int i = 0; i < prices.length; i++) {
-            lowestPrice = prices[i];
-
             if (lowestPrice > prices[i]) {
                 lowestPrice = prices[i];
             } else {
-                int calculate = prices[i] - lowestPrice;
+               int calculate = prices[i] - lowestPrice;
 
                if ( calculate > maxProfit ) {
                 maxProfit = calculate;
@@ -24,4 +22,5 @@ public class Stock {
         int[] prices = {7,1,5,3,6,4};
         System.out.println(maxProfit(prices));
     }
+    
 }
