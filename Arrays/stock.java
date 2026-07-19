@@ -22,6 +22,10 @@ public class Stock {
         int[] prices = {7,1,5,3,6,4};
         System.out.println(maxProfit(prices));
         System.out.println("maxProfit ");
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println("*");
+        }
     }
     
 }
