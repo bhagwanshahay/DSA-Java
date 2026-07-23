@@ -38,16 +38,16 @@ public class RemoveDuplicates {
             }
     }
     public static void main(String[] args) {
-        // int nums[] = {1,1,2};
-        // System.out.println(removeDuplicates(nums));
-        // System.out.println(removeDuplicates(nums));
+        int nums[] = {1,1,2};
+        System.out.println(removeDuplicates(nums));
+        System.out.println(removeDuplicates(nums));
 
 
         // Scanner sc = new Scanner(System.in);
         // printNumber(sc);
 
-        int marks = 95;
-        studentGrade(marks);
+        // int marks = 95;
+        // studentGrade(marks);
 
 
     }
