@@ -10,10 +10,10 @@ public class arrayList {
         ArrayList<Integer> array =  new ArrayList<>();
         // List<Integer> list = new ArrayList<>();
         // Collection<Integer> collection = new ArrayList<>();
-
-
-
-
+        
+        
+        
+        
         array.add(10);
         array.add(20);
         array.add(30);
@@ -22,10 +22,10 @@ public class arrayList {
         array.add(60);
         array.add(70);
         array.add(80);
-
+        
         System.out.println(array);
-
-
+        
+        
 
 
     }
