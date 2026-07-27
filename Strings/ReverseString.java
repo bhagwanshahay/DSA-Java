@@ -23,6 +23,7 @@ System.out.println(new String(s));
     public static void main(String[] args) {
         char[] s = {'h', 'e', 'l', 'l', 'o'};
         reverseString(s);
+        System.out.println();
 
     }
 }
