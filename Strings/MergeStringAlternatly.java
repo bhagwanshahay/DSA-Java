@@ -5,7 +5,6 @@ public class MergeStringAlternatly {
         
         int i = 0;
         int j = 0;
-        char ch = ' ';
         StringBuilder sb = new StringBuilder( );
         
         
