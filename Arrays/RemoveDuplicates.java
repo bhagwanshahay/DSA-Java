@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Scanner;
 public class RemoveDuplicates {
    static int removeDuplicates(int[] nums) {

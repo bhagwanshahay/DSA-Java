@@ -1,3 +1,4 @@
+package Arrays;
 public class MaxArray {
     public static void main(String[] args) {
         int arr[] = {42, 73, 18, 91, 5, 67, 88, 34, 29, 76};

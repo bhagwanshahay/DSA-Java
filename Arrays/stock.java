@@ -1,3 +1,4 @@
+package Arrays;
 public class Stock {
      static int maxProfit(int[] prices) {
         int lowestPrice = 0;

@@ -1,4 +1,4 @@
-package DSA;
+package Arrays;
 import java.util.ArrayList;
 
 public class arrayList {
