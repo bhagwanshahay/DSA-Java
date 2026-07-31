@@ -1,6 +1,8 @@
 package java_collection_and_framework;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+
 
 public class listCollection {
     public static void main(String[] args) {
@@ -9,6 +11,10 @@ public class listCollection {
         ArrayList<Integer> a2 =  new ArrayList<>();
         // List<Integer> list = new ArrayList<>();
         // Collection<Integer> collection = new ArrayList<>();
+
+
+        // list<Integer> list3 = new ArrayList();
+
         
         
         
@@ -40,6 +46,15 @@ public class listCollection {
         System.out.println(array);
         array.clear();
         System.out.println(array);
+
+        System.out.println(array.size());
+        System.out.println(a2.size());
+
+            Iterator<Integer> it = a2.iterator();
+            while(iterator.hasNext()) {
+                System.out.println( "element : " + iterator.next());
+            }
+
         
         
 
