@@ -1,5 +1,6 @@
 package JavaCollectionFramework;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
 
 
 public class listCollection {
@@ -84,10 +85,20 @@ public class listCollection {
 
 
             ArrayList<Integer> array =  new ArrayList<>();
-            array.add(60);
-            array.add(70);
             array.add(80);
-            System.out.print("Printing Entire list : " + array);
+            array.add(70);
+            array.add(60);
+            System.out.println("Printing Entire list : " + array);
+
+            Collections.sort(array);
+            System.out.println("Sorted Array  in Assending Order : " + array);
+
+            Collections.sort(array, Collections.reverseOrder());
+            System.out.println("Sorted Araay in Descending Order : " + array);
+
+            ArrayList<Integer> array1 = (ArrayList<Integer>)array.clone();
+            System.out.println("Printing new array1 : " + array1);
+
             
             
 
