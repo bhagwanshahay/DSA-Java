@@ -5,7 +5,7 @@ import java.util.*;
 public class listCollection {
      public static void main(String[] args) {
         
-        ArrayList<Integer> array =  new ArrayList<>();
+        
         ArrayList<Integer> a2 =  new ArrayList<>();
         // List<Integer> list = new ArrayList<>();
         // Collection<Integer> collection = new ArrayList<>();
@@ -46,16 +46,50 @@ public class listCollection {
         // System.out.println(array);
 
         
-        a2.add(10);
-        a2.add(15);
-        a2.add(20);
-        a2.add(45);
-        System.out.println(a2);
-        System.out.println(a2.size());
+        // a2.add(10);
+        // a2.add(15);
+        // a2.add(20);
+        // a2.add(45);
+        // System.out.println(a2);
+        // System.out.println(a2.size());
 
-            Iterator<Integer> iterator = a2.iterator();
-            while (iterator.hasNext()) {
-                System.out.println( "element : " + iterator.next());
-            }
+        //     Iterator<Integer> iterator = a2.iterator();
+        //     while (iterator.hasNext()) {
+        //         System.out.println( "element : " + iterator.next()); 
+        //     }
+
+
+        //     List<Integer> list = new ArrayList<>();
+        //     list.add(11);
+        //     list.add(12);
+        //     list.add(13);
+
+        //     System.out.println(list.get(0));
+
+        //     list.set(0,10);
+        //     System.out.println(list);
+
+        //     Object[] arr = list.toArray();
+
+        //     for (Object obj : arr ) {
+        //         System.out.println(obj);
+        //     }
+
+        //     System.out.println(list.contains(13));
+
+            // ArrayList<Integer> collection = new ArrayList<>();
+            // collection.add(114);
+            // collection.add(124);
+            // collection.add(134);
+
+
+            ArrayList<Integer> array =  new ArrayList<>();
+            array.add(60);
+            array.add(70);
+            array.add(80);
+            System.out.print("Printing Entire list : " + array);
+            
+            
+
     }
 }
