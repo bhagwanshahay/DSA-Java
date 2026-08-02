@@ -1,8 +1,10 @@
 package Arrays;
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
  public class longestSquare {
    
-    public int longestSquareStreak(int[] nums) {
+    static int longestSquareStreak(int[] nums) {
         Arrays.sort(nums);
 
         Map<Integer, Integer> dp = new HashMap<>();
