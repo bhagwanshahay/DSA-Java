@@ -17,7 +17,7 @@ public class ArrayIndex {
         }
         System.out.println( "The maximum is "+ max);
         
-
+        input.close();
     }
     static void min(int n){
         Scanner input = new Scanner(System.in);
@@ -36,7 +36,7 @@ public class ArrayIndex {
 
     }
     public static void main(String[] args) {
-        // Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         // int num[] ;
         // int arr[];
@@ -103,6 +103,6 @@ public class ArrayIndex {
         max(3);
         min(3);
 
-
+        input.close();
     }
 }

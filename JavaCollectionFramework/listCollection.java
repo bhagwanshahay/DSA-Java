@@ -56,6 +56,8 @@ public class listCollection {
             Iterator<Integer> iterator = a2.iterator();
             while (iterator.hasNext()) {
                 System.out.println( "element : " + iterator.next());
+
+                System.out.println("*");
             }
     }
 }

@@ -1,5 +1,5 @@
 package Arrays;
-public class Stock {
+public  class StockProblem {
      static int maxProfit(int[] prices) {
         int lowestPrice = 0;
         int maxProfit = 0;

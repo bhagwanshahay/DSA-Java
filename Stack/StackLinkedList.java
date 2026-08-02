@@ -1,7 +1,7 @@
 package Stack;
 
 public class StackLinkedList {
-    static class Node {
+   public static class Node {
         int data;
         Node next;
         public Node(int data) {
@@ -10,7 +10,7 @@ public class StackLinkedList {
 
         }
     }
-    static class Stack {
+    public static class Stack {
         public static  Node head;
         public static boolean isEmpty() {
             return head  == null;
