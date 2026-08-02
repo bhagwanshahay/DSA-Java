@@ -3,7 +3,7 @@ import java.util.*;
 
 
 public class listCollection {
-     static void main(String[] args) {
+     public static void main(String[] args) {
         
         ArrayList<Integer> array =  new ArrayList<>();
         ArrayList<Integer> a2 =  new ArrayList<>();
@@ -56,8 +56,6 @@ public class listCollection {
             Iterator<Integer> iterator = a2.iterator();
             while (iterator.hasNext()) {
                 System.out.println( "element : " + iterator.next());
-
-                System.out.println("*");
             }
     }
 }
