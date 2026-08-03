@@ -99,6 +99,15 @@ public class listCollection {
             ArrayList<Integer> array1 = (ArrayList<Integer>)array.clone();
             System.out.println("Printing new array1 : " + array1);
 
+            ArrayList<Integer> marks = new ArrayList<>();
+            marks.ensureCapacity(100);
+
+            System.out.println(marks.isEmpty());
+            System.out.println(array1.indexOf(70));
+
+
+            //linkedlist
+
             
 
             
