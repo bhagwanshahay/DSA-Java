@@ -100,6 +100,8 @@ public class listCollection {
             System.out.println("Printing new array1 : " + array1);
 
             
+
+            
             
 
     }
