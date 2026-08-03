@@ -1,6 +1,5 @@
 package JavaCollectionFramework;
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 
 public class listCollection {
@@ -107,8 +106,11 @@ public class listCollection {
 
 
             //linkedlist
+            LinkedList<Integer> link = new LinkedList<>();
 
-            
+
+
+
 
             
             
