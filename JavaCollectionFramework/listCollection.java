@@ -83,30 +83,45 @@ public class listCollection {
             // collection.add(134);
 
 
-            ArrayList<Integer> array =  new ArrayList<>();
-            array.add(80);
-            array.add(70);
-            array.add(60);
-            System.out.println("Printing Entire list : " + array);
+            // ArrayList<Integer> array =  new ArrayList<>();
+            // array.add(80);
+            // array.add(70);
+            // array.add(60);
+            // System.out.println("Printing Entire list : " + array);
 
-            Collections.sort(array);
-            System.out.println("Sorted Array  in Assending Order : " + array);
+            // Collections.sort(array);
+            // System.out.println("Sorted Array  in Assending Order : " + array);
 
-            Collections.sort(array, Collections.reverseOrder());
-            System.out.println("Sorted Araay in Descending Order : " + array);
+            // Collections.sort(array, Collections.reverseOrder());
+            // System.out.println("Sorted Araay in Descending Order : " + array);
 
-            ArrayList<Integer> array1 = (ArrayList<Integer>)array.clone();
-            System.out.println("Printing new array1 : " + array1);
+            // ArrayList<Integer> array1 = (ArrayList<Integer>)array.clone();
+            // System.out.println("Printing new array1 : " + array1);
 
-            ArrayList<Integer> marks = new ArrayList<>();
-            marks.ensureCapacity(100);
+            // ArrayList<Integer> marks = new ArrayList<>();
+            // marks.ensureCapacity(100);
 
-            System.out.println(marks.isEmpty());
-            System.out.println(array1.indexOf(70));
+            // System.out.println(marks.isEmpty());
+            // System.out.println(array1.indexOf(70));
 
 
             //linkedlist
             LinkedList<Integer> link = new LinkedList<>();
+            link.add(10);
+            link.add(12);
+            link.add(16);
+            link.add(18);
+            link.add(20);
+
+            System.out.println(link);
+
+
+            link.addFirst(77);
+            System.out.println(link);
+
+            link.addLast(56);
+            System.out.println(link);
+
 
 
 
