@@ -109,8 +109,6 @@ public class listCollection {
             LinkedList<Integer> link = new LinkedList<>();
             link.add(10);
             link.add(12);
-            link.add(16);
-            link.add(18);
             link.add(20);
 
             System.out.println(link);
@@ -121,6 +119,8 @@ public class listCollection {
 
             link.addLast(56);
             System.out.println(link);
+
+            System.err.println("*");
 
 
 
