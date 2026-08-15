@@ -120,8 +120,6 @@ public class listCollection {
             link.addLast(56);
             System.out.println(link);
 
-            System.err.println("*");
-
 
 
 

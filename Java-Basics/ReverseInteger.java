@@ -19,6 +19,6 @@ public class ReverseInteger {
             x = x / 10;
         }
 
-        return reversed;
-    }
+        return reversed;    
+    } 
 }
