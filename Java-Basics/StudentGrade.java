@@ -22,5 +22,6 @@ public class StudentGrade {
     public static void main(String[] args) {
         int marks  = 95;
         studentGrade(marks);
+//main 
     }
 }
